@@ -20,8 +20,7 @@ app.post('/', function (req, res) {
   request(url, function (err, response, body) {
   	console.log('City' + city);
   	console.log(url); 
-  	//console.log(err);
-  	//console.log(response);
+
     if(err){
       res.render('index', {weather: null, error: 'Error, please try again'});
     } else {
