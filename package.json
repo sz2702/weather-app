@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/sz2702/weather-app#readme",
   "dependencies": {
-    "request": "^2.88.0"
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "underscore": "^1.9.1"
   }
 }
